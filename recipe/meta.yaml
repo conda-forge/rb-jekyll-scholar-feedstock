@@ -1,5 +1,5 @@
 {% set name = "jekyll-scholar" %}
-{% set version = "5.9.1" %}
+{% set version = "6.2.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: b85cf7bed21e60430b6ae03549562d2eb9e84021ff817087e49927ed296289dc
+  sha256: 55ff777c7d256b336cb2a3088f08ca9a6c61b94b7800a398b2cdbff13eba1fee
 
 build:
   noarch: generic
@@ -25,7 +25,7 @@ requirements:
     - rb-bibtex-ruby >=4.0.13,<5
     - rb-citeproc-ruby >=1.0,<2
     - rb-csl-styles >=1.0,<2
-    - rb-jekyll >=3.0,<4
+    - rb-jekyll >=4.0,<5
 
 test:
   commands:
