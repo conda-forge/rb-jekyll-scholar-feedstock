@@ -22,10 +22,10 @@ requirements:
     - ruby
   run:
     - ruby
-    - rb-bibtex-ruby >=4.0.13,<5
+    - rb-bibtex-ruby >=5.0,<6
     - rb-citeproc-ruby >=1.0,<2
     - rb-csl-styles >=1.0,<2
-    - rb-jekyll >=4.0,<5
+    - rb-jekyll >=5,<6
 
 test:
   commands:
