@@ -1,5 +1,5 @@
 {% set name = "jekyll-scholar" %}
-{% set version = "6.8.0" %}
+{% set version = "6.8.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: c0cc519bdc581fc50f5f1d2afaf7e800e0f7403075f071f135b6a970ca29943f
+  sha256: 043ac839d4a420de96bd735d66df931c37e1dd78e7538196e98ad2ecd42e2b8a
 
 build:
   noarch: generic
